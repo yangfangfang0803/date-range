@@ -168,6 +168,8 @@ export default {
   },
   methods: {
     showSelectWin: function () {
+      document.getElementsByTagName('body')[0].click();
+      
       this.winstatus = true;
 
       this.cancelFn = () => {
